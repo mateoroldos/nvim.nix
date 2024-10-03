@@ -31,7 +31,7 @@ local function getGreeting(name)
   return datetime .. '\t' .. greetingsTable[greetingIndex] .. ', ' .. name
 end
 
-local userName = 'Ethan'
+local userName = 'Mateo'
 local greeting = getGreeting(userName)
 local seperator_height = 2
 
