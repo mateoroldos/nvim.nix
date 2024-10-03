@@ -99,6 +99,7 @@ with final.pkgs.lib; let
     nvim-autopairs # Automatically create matching pairs | https://github.com/windwp/nvim-autopairs
     nvim-ts-autotag # Automaticall close and rename html tags | https://github.com/windwp/nvim-ts-autotag
     (mkNvimPlugin inputs.gx-nvim "gx.nvim") # open links with `gx` | https://github.com/chrishrb/gx.nvim
+    vim-tmux-navigator # https://github.com/christoomey/vim-tmux-navigator
 
     # Color Schemes
     tokyonight-nvim # https://github.com/folke/tokyonight.nvim/
